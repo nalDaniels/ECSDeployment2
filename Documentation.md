@@ -1,5 +1,5 @@
 # Purpose:
-To deploy a two-tier retail banking application using Elastic Container Service. 
+To deploy a two-tier retail banking application to containers using Elastic Container Service. 
 
 # Steps to Deployment
 ## 1. Use Terraform to Create Infrastructure for Jenkins Manager and Agents
@@ -69,5 +69,6 @@ I would also suggest securing the architecture for the Terraform. From this desi
 Using Jenkins agents to execute the pipeline makes Jenkins more secure since the application code and files are solely on the Jenkins agents, which are only accessible via ssh. 
 
 # System Design
+![Plan Deployment 7 drawio](https://github.com/nalDaniels/ECSDeployment2/assets/135375665/08369c1e-1b84-40ef-a064-e73d13e6c051)
 
 
