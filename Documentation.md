@@ -1,5 +1,5 @@
 # Purpose:
-To deploy a two-tier retail banking application to containers using Elastic Container Service. 
+To deploy a two-tier retail banking application to containers using Elastic Container Service on Fargate. Terraform was used to create the infrastructure for Jenkins and the containers. To familiarize myself with using ECS service and private subnets to make our application for fault-tolerant and secure. 
 
 # Steps to Deployment
 ## 1. Use Terraform to Create Infrastructure for Jenkins Manager and Agents
@@ -69,6 +69,5 @@ I would also suggest securing the architecture for the Terraform. From this desi
 Using Jenkins agents to execute the pipeline makes Jenkins more secure since the application code and files are solely on the Jenkins agents, which are only accessible via ssh. 
 
 # System Design
-![Plan Deployment 7 drawio](https://github.com/nalDaniels/ECSDeployment2/assets/135375665/08369c1e-1b84-40ef-a064-e73d13e6c051)
 
-
+![Plan Deployment 7 drawio (1)](https://github.com/nalDaniels/ECSDeployment2/assets/135375665/28a3907e-b12f-410a-8efb-f84e96acdd02)
